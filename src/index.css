@@ -1,0 +1,15 @@
+header {
+  background-color: #EC3A49;
+  color: white;
+  text-align: center;
+}
+header h1 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 900;
+}
+
+.selected {
+  border: 1px solid;
+  background-color: #fdfff3;
+  color: #EC3A49;
+}
