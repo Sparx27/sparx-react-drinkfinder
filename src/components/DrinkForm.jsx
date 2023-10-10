@@ -43,9 +43,8 @@ const DrinkForm = () => {
             <Form.Control
               id="drinkName"
               type="text"
-              placeholder="Ex: Tekila, Vodka"
+              placeholder="Ex: Tequila, Vodka"
               name="drinkName"
-              /* value={search.drinkName} */
               onChange={e => setSearch({[e.target.name]: `i=${e.target.value}`})}
               disabled={option === 'option2'}
             />
